@@ -1,0 +1,17 @@
+{
+  "experiment": "cnn_baseline",
+  "architecture": "MobileNetV2 CNN baseline",
+  "same_subject_split_as_transformer": true,
+  "image_height": 224,
+  "image_width": 224,
+  "batch_size": 32,
+  "epochs_requested": 25,
+  "epochs_completed": 25,
+  "learning_rate": 0.0001,
+  "seed": 42,
+  "decision_threshold": 0.5,
+  "train_samples": 12480,
+  "validation_samples": 2880,
+  "test_samples": 2880,
+  "label_column": "label"
+}

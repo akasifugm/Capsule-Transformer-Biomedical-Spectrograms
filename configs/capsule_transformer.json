@@ -1,0 +1,24 @@
+{
+  "experiment": "Capsule + Transformer",
+  "seed": 42,
+  "image_size": [
+    224,
+    224
+  ],
+  "batch_size": 32,
+  "train_subjects": 26,
+  "validation_subjects": 6,
+  "test_subjects": 6,
+  "train_images": 12480,
+  "validation_images": 2880,
+  "test_images": 2880,
+  "classification_threshold": 0.5,
+  "backbone": "MobileNetV2",
+  "backbone_pretrained": "ImageNet",
+  "backbone_trainable": false,
+  "token_dim": 64,
+  "transformer_heads": 4,
+  "transformer_ff_dim": 128,
+  "transformer_layers": 2,
+  "dropout": 0.2
+}

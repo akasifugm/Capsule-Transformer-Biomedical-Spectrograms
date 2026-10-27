@@ -1,0 +1,20 @@
+{
+  "model": "Capsule-only",
+  "image_size": [
+    224,
+    224
+  ],
+  "batch_size": 32,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "loss": "binary_crossentropy",
+  "max_epochs": 20,
+  "early_stopping_monitor": "val_auc",
+  "early_stopping_patience": 5,
+  "reduce_lr_monitor": "val_auc",
+  "seed": 42,
+  "classification_threshold": 0.5,
+  "train_subjects": 26,
+  "validation_subjects": 6,
+  "test_subjects": 6
+}
